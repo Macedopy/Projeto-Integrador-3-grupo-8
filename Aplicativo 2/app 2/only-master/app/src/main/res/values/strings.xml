@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GeoWarning</string>
+    <string name="Email">Email</string>
+    <string name="Senha">Senha</string>
+    <string name="Entrar">Entrar</string>
+    <string name="CadastrarRisco">Cadastrar Risco</string>
+    <string name="EnviarLocalizacao">Enviar Localização</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name="ConfirmarSenha">Confirmar Senha</string>
+    <string name="label_titulo">Título do perigo</string>
+    <string name="hint_titulo">Digite o título</string>
+    <string name="label_descricao">Descrição</string>
+    <string name="hint_descricao">Digite a descrição</string>
+    <string name="btn_cancelar">X</string>
+    <string name="btn_confirmar">✔</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDF1F5"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <!-- Parte principal da tela -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/geowarninglogo"
+            android:contentDescription="Logo" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="12dp"
+            android:autofillHints="emailAddress" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Senha"
+            android:inputType="textPassword"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="24dp"
+            android:autofillHints="password" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Entrar"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+
+    <!-- Botão fixado ao fim -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Cadastrar"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="bottom"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
